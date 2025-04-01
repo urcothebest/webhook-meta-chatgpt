@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const app = express();
 app.use(bodyParser.json());
 
-const VERIFY_TOKEN = "MI_TOKEN_SECRETO"; // "@APIAPI123123APIAPI@"; // Cambia esto por un token seguro
+const VERIFY_TOKEN = "MI_TOKEN_SECRETO"; // Cambia esto por un token seguro
 const OPENAI_API_KEY = "TU_CLAVE_DE_OPENAI"; // Reemplaza con tu API Key de OpenAI
 
 // Endpoint para verificar el webhook en Meta
